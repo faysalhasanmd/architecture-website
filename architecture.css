@@ -120,6 +120,30 @@ main {
   gap: 24px;
 }
 
+/* features enjoy */
+.features-enjoy {
+  gap: 85px;
+  justify-content: center;
+  align-items: center;
+}
+.features-enjoy-content-title {
+  font-size: 35px;
+  font-weight: 500;
+  border-left: 2px solid #ff900e;
+}
+
+.features-enjoy-image img {
+  max-width: 100%;
+}
+
+.features-card {
+  background-color: white;
+  box-shadow: 0 3px 30px 0 rgba(0, 0, 0, 0.06);
+  padding: 30px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
 /* some fact */
 .award {
   padding: 17px;
@@ -129,9 +153,26 @@ main {
 }
 
 .facts-container {
+  margin-top: 120px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 54px;
+}
+
+/* our sponser */
+.our-sponser {
+  margin-top: 90px;
+  text-align: center;
+}
+.our-sponser > h3 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.image-container-sponser {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  filter: grayscale(100%);
 }
 
 /* responsive media */
