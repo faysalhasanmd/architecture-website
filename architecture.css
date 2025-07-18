@@ -136,10 +136,6 @@ main {
   border-left: 4px solid #ff900e;
 }
 
-.features-enjoy-image img {
-  max-width: 100%;
-}
-
 .features-card {
   background-color: white;
   box-shadow: 0 3px 30px 0 rgba(0, 0, 0, 0.06);
@@ -194,6 +190,11 @@ main {
   gap: 20px;
   filter: grayscale(100%);
   margin-top: 28px;
+}
+
+.features-enjoy-image-main {
+  max-width: 580px;
+  max-height: 850px;
 }
 
 /* footer style */
